@@ -1,0 +1,52 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+
+# Executables
+packet_logger
+packet_logger_zmq
+zmq_bridge
+zmq_publisher_test
+zmq_subscriber_test
+zmq_multi_publisher
+zmq_multi_subscriber
+log_reader
+test_components
+
+# Binary log files
+*.log
+*.log.*
+packets_binary.log*
+
+# Profiling and debugging
+gmon.out
+profile.txt
+*.dSYM/
+core
+vgcore.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test outputs
+*.bin
+*.pcap
+
+# Build directories
+build/
+dist/
+cmake-build-*/
+
+# Dependency directories
+.cache/
+
+# Local configuration
+.env
+.env.local
